@@ -2,25 +2,34 @@ h1 {
 color: royalblue;
 }
 * {
-box-sizing: border-box;
+box-sizing: 1px;
 }
 h1 {
 margin-bottom: 15px;
 }
 
+h2 p{
+color: green;
+}
+   {
+color: red;
+}
+
+
 p {
 border: 1px solid black;
-background-color: grey;
+background-color: red;
 width: 90%;
 height: 150px;
 margin-right: auto;
 margin-left: auto;
 font-family: helvetica;
-color: white;
+color: green;
 }
 
 
-. row {
+.row {
+
 width: 100%;
 }
 
@@ -113,3 +122,4 @@ width: 91.66%;
 .colums: md-12 {
 width: 100%;
 }
+
